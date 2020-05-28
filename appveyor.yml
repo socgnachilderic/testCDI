@@ -1,8 +1,8 @@
 branches:
     only:
-        master
+        - master
 
 build: off
 
 install:
-    SET PATH=C:\\Python37\\Scripts;%PATH%
+    - SET PATH=C:\\Python37;C:\\Python37\\Scripts;%PATH%
