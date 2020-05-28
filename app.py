@@ -4,6 +4,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
+# aaaa
 def generate_list():
     return [f"liste {i}" for i in range(1, 5)]
 
