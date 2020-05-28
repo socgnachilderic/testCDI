@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 flask = "*"
 gunicorn = "*"
+pytest = "*"
+locust = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.8"
