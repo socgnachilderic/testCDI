@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Projet CDI</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+    <body>
+        <div class="card">
+            <h1>Projet CDI</h1>
+            <ul>
+                {% for list in lists%}
+                    <li>{{ list }}</li>
+                {% endfor %}
+            </ul>
+            <button>plus</button>
+        </div>
+    </body>
+</html>
