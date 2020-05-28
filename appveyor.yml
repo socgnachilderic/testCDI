@@ -1,0 +1,8 @@
+branches:
+    only:
+        master
+
+build: off
+
+install:
+    SET PATH=C:\\Python37\\Scripts;%PATH%
